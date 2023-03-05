@@ -58,7 +58,7 @@ final class InitialViewViewController: UIViewController, InitialViewViewProtocol
         return stackView
     }()
 
-     private let loginBtn: UIButton = {
+     private lazy var loginBtn: UIButton = {
         let button = UIButton()
         button.backgroundColor = UIColor(fromHex: AppConstants.Color.primaryColor) ?? .opaqueSeparator
         // button.setTitleColor(UIColor(fromHex: AppConstants.Color.fontNunitoBlueColor) ?? .label, for: .normal)
@@ -69,12 +69,12 @@ final class InitialViewViewController: UIViewController, InitialViewViewProtocol
 
         button.translatesAutoresizingMaskIntoConstraints = false
 
-        // button.addTarget(self, action: #selector(loginBtnAction(sender:)), for: .touchUpInside)
+         button.addTarget(self, action: #selector(loginBtnAction(sender:)), for: .touchUpInside)
 
         return button
     }()
 
-    private  let signUpBtn: UIButton = {
+    private lazy var signUpBtn: UIButton = {
         let button = UIButton()
         button.backgroundColor = UIColor(fromHex: AppConstants.Color.primaryColor) ?? .opaqueSeparator
         // button.setTitleColor(UIColor(fromHex: AppConstants.Color.fontNunitoBlueColor) ?? .label, for: .normal)
@@ -85,7 +85,7 @@ final class InitialViewViewController: UIViewController, InitialViewViewProtocol
 
         button.translatesAutoresizingMaskIntoConstraints = false
 
-        // button.addTarget(self, action: #selector(signUpBtnAction(sender:)), for: .touchUpInside)
+         button.addTarget(self, action: #selector(signUpBtnAction(sender:)), for: .touchUpInside)
 
         return button
     }()
