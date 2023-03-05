@@ -12,13 +12,16 @@
 		876C910D29B4265D00774DEF /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 876C910B29B4265D00774DEF /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		879FEFFA29B2CD2C00AA8BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */; };
 		879FEFFC29B2CD2C00AA8BAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */; };
-		879FEFFE29B2CD2C00AA8BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFFD29B2CD2C00AA8BAD /* ViewController.swift */; };
-		879FF00129B2CD2C00AA8BAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879FEFFF29B2CD2C00AA8BAD /* Main.storyboard */; };
 		879FF00329B2CD2D00AA8BAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879FF00229B2CD2D00AA8BAD /* Assets.xcassets */; };
-		879FF00629B2CD2D00AA8BAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879FF00429B2CD2D00AA8BAD /* LaunchScreen.storyboard */; };
 		879FF01129B2CD2D00AA8BAD /* CleanChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FF01029B2CD2D00AA8BAD /* CleanChatTests.swift */; };
 		879FF01B29B2CD2D00AA8BAD /* CleanChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FF01A29B2CD2D00AA8BAD /* CleanChatUITests.swift */; };
 		879FF01D29B2CD2D00AA8BAD /* CleanChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FF01C29B2CD2D00AA8BAD /* CleanChatUITestsLaunchTests.swift */; };
+		87A2BEA529B44FB9009620E7 /* InitialViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BE9F29B44FB9009620E7 /* InitialViewPresenter.swift */; };
+		87A2BEA629B44FB9009620E7 /* InitialViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA029B44FB9009620E7 /* InitialViewRouter.swift */; };
+		87A2BEA729B44FB9009620E7 /* InitialViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA129B44FB9009620E7 /* InitialViewViewController.swift */; };
+		87A2BEA829B44FB9009620E7 /* InitialViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA229B44FB9009620E7 /* InitialViewProtocols.swift */; };
+		87A2BEA929B44FB9009620E7 /* InitialViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA329B44FB9009620E7 /* InitialViewInteractor.swift */; };
+		87A2BEAA29B44FB9009620E7 /* InitialViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */; };
 		96A04F1B9CF87944D316C02F /* Pods_CleanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625612B0078A2BB767BA5592 /* Pods_CleanChat.framework */; };
 		A103315CF4A52797139A16E8 /* Pods_CleanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024E65C4187099E5044111DE /* Pods_CleanChatTests.framework */; };
 		D4C0DFE5349D894D832B5821 /* Pods_CleanChat_CleanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */; };
@@ -67,16 +70,19 @@
 		879FEFF629B2CD2C00AA8BAD /* CleanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		879FEFFD29B2CD2C00AA8BAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		879FF00029B2CD2C00AA8BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		879FF00229B2CD2D00AA8BAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		879FF00529B2CD2D00AA8BAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		879FF00729B2CD2D00AA8BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		879FF00C29B2CD2D00AA8BAD /* CleanChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		879FF01029B2CD2D00AA8BAD /* CleanChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanChatTests.swift; sourceTree = "<group>"; };
 		879FF01629B2CD2D00AA8BAD /* CleanChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		879FF01A29B2CD2D00AA8BAD /* CleanChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanChatUITests.swift; sourceTree = "<group>"; };
 		879FF01C29B2CD2D00AA8BAD /* CleanChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		87A2BE9F29B44FB9009620E7 /* InitialViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewPresenter.swift; sourceTree = "<group>"; };
+		87A2BEA029B44FB9009620E7 /* InitialViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewRouter.swift; sourceTree = "<group>"; };
+		87A2BEA129B44FB9009620E7 /* InitialViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewViewController.swift; sourceTree = "<group>"; };
+		87A2BEA229B44FB9009620E7 /* InitialViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewProtocols.swift; sourceTree = "<group>"; };
+		87A2BEA329B44FB9009620E7 /* InitialViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewInteractor.swift; sourceTree = "<group>"; };
+		87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewViewController.xib; sourceTree = "<group>"; };
 		AA8686C5E4497D6D2CC7F9A2 /* Pods-CleanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat.release.xcconfig"; path = "Target Support Files/Pods-CleanChat/Pods-CleanChat.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4928C5EC3C509389998C5 /* Pods-CleanChat-CleanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat-CleanChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CleanChat-CleanChatUITests/Pods-CleanChat-CleanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanChat_CleanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,10 +157,8 @@
 			children = (
 				879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */,
 				879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */,
-				879FEFFD29B2CD2C00AA8BAD /* ViewController.swift */,
-				879FEFFF29B2CD2C00AA8BAD /* Main.storyboard */,
+				87A2BEAB29B44FCB009620E7 /* IInitialView */,
 				879FF00229B2CD2D00AA8BAD /* Assets.xcassets */,
-				879FF00429B2CD2D00AA8BAD /* LaunchScreen.storyboard */,
 				8735ABD729B4300300849676 /* GoogleService-Info.plist */,
 				879FF00729B2CD2D00AA8BAD /* Info.plist */,
 			);
@@ -176,6 +180,19 @@
 				879FF01C29B2CD2D00AA8BAD /* CleanChatUITestsLaunchTests.swift */,
 			);
 			path = CleanChatUITests;
+			sourceTree = "<group>";
+		};
+		87A2BEAB29B44FCB009620E7 /* IInitialView */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BE9F29B44FB9009620E7 /* InitialViewPresenter.swift */,
+				87A2BEA029B44FB9009620E7 /* InitialViewRouter.swift */,
+				87A2BEA229B44FB9009620E7 /* InitialViewProtocols.swift */,
+				87A2BEA329B44FB9009620E7 /* InitialViewInteractor.swift */,
+				87A2BEA129B44FB9009620E7 /* InitialViewViewController.swift */,
+				87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */,
+			);
+			path = IInitialView;
 			sourceTree = "<group>";
 		};
 		C9664C060A8E7B781582F120 /* Frameworks */ = {
@@ -300,10 +317,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879FF00629B2CD2D00AA8BAD /* LaunchScreen.storyboard in Resources */,
+				87A2BEAA29B44FB9009620E7 /* InitialViewViewController.xib in Resources */,
 				8735ABD829B4300300849676 /* GoogleService-Info.plist in Resources */,
 				879FF00329B2CD2D00AA8BAD /* Assets.xcassets in Resources */,
-				879FF00129B2CD2C00AA8BAD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,8 +464,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879FEFFE29B2CD2C00AA8BAD /* ViewController.swift in Sources */,
+				87A2BEA829B44FB9009620E7 /* InitialViewProtocols.swift in Sources */,
 				879FEFFA29B2CD2C00AA8BAD /* AppDelegate.swift in Sources */,
+				87A2BEA729B44FB9009620E7 /* InitialViewViewController.swift in Sources */,
+				87A2BEA629B44FB9009620E7 /* InitialViewRouter.swift in Sources */,
+				87A2BEA529B44FB9009620E7 /* InitialViewPresenter.swift in Sources */,
+				87A2BEA929B44FB9009620E7 /* InitialViewInteractor.swift in Sources */,
 				879FEFFC29B2CD2C00AA8BAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -485,25 +505,6 @@
 			targetProxy = 879FF01729B2CD2D00AA8BAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		879FEFFF29B2CD2C00AA8BAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				879FF00029B2CD2C00AA8BAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		879FF00429B2CD2D00AA8BAD /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				879FF00529B2CD2D00AA8BAD /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		879FF01E29B2CD2D00AA8BAD /* Debug */ = {
@@ -632,7 +633,6 @@
 				INFOPLIST_FILE = CleanChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -660,7 +660,6 @@
 				INFOPLIST_FILE = CleanChat/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
