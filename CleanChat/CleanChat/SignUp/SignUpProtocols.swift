@@ -11,10 +11,13 @@ import Foundation
 
 // MARK: Wireframe -
 protocol SignUpWireframeProtocol: AnyObject {
-
+    func routeToDashboard()
 }
 // MARK: Presenter -
 protocol SignUpPresenterProtocol: AnyObject {
+    func signUpUser(email: String, pass: String)
+    func presentSignUpError(withError: String)
+    func goToDashboard()
 
 }
 
@@ -22,10 +25,14 @@ protocol SignUpPresenterProtocol: AnyObject {
 protocol SignUpInteractorProtocol: AnyObject {
 
   var presenter: SignUpPresenterProtocol? { get set }
+
+    func doSignUP(email: String, pass: String)
 }
 
 // MARK: View -
 protocol SignUpViewProtocol: AnyObject {
 
   var presenter: SignUpPresenterProtocol? { get set }
+
+    func displaySignUpError(message: String)
 }

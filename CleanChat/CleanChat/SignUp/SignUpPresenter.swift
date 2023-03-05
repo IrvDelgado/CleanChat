@@ -21,4 +21,18 @@ final class SignUpPresenter: SignUpPresenterProtocol {
         self.router = router
     }
 
+    func signUpUser(email: String, pass: String) {
+
+        interactor?.doSignUP(email: email, pass: pass)
+
+    }
+
+    func goToDashboard() {
+        router.routeToDashboard()
+    }
+
+    func presentSignUpError(withError: String) {
+        view?.displaySignUpError(message: withError)
+    }
+
 }

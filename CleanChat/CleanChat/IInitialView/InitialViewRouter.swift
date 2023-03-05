@@ -31,14 +31,14 @@ final class InitialViewRouter: InitialViewWireframeProtocol {
     func routeToLogin() {
         let view = LoginRouter.createModule()
 
-        print(navigationController != nil)
-
-        // navigationController?.present(view, animated: false)
         self.navigationController?.pushViewController(view, animated: true)
     }
 
     func routeToSignUp() {
-        let view = SignUpRouter.createModule()
+
+        guard let navController = self.navigationController else { return}
+
+        let view = SignUpRouter.createModule(with: navController)
         self.navigationController?.pushViewController(view, animated: true)
     }
 

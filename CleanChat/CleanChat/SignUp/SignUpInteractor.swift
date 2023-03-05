@@ -8,8 +8,24 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 final class SignUpInteractor: SignUpInteractorProtocol {
 
     weak var presenter: SignUpPresenterProtocol?
+
+    func doSignUP(email: String, pass: String) {
+
+        Auth.auth().createUser(withEmail: email, password: pass) { [weak self] _, error in
+
+            guard let self = self else {return}
+
+            if let err = error {
+                self.presenter?.presentSignUpError(withError: err.localizedDescription)
+            } else {
+                self.presenter?.goToDashboard()
+            }
+
+        }
+    }
 }
