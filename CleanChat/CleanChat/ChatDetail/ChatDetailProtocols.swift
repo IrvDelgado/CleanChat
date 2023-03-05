@@ -9,23 +9,23 @@
 
 import Foundation
 
-//MARK: Wireframe -
+// MARK: Wireframe -
 protocol ChatDetailWireframeProtocol: AnyObject {
 
 }
-//MARK: Presenter -
+// MARK: Presenter -
 protocol ChatDetailPresenterProtocol: AnyObject {
 
 }
 
-//MARK: Interactor -
+// MARK: Interactor -
 protocol ChatDetailInteractorProtocol: AnyObject {
 
-  var presenter: ChatDetailPresenterProtocol?  { get set }
+  var presenter: ChatDetailPresenterProtocol? { get set }
 }
 
-//MARK: View -
+// MARK: View -
 protocol ChatDetailViewProtocol: AnyObject {
 
-  var presenter: ChatDetailPresenterProtocol?  { get set }
+  var presenter: ChatDetailPresenterProtocol? { get set }
 }

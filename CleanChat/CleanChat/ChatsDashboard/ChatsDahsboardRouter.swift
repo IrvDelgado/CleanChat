@@ -10,19 +10,19 @@
 import UIKit
 
 class ChatsDahsboardRouter: ChatsDahsboardWireframeProtocol {
-    
+
     weak var viewController: UIViewController?
-    
+
     static func createModule() -> UIViewController {
         let view = ChatsDahsboardViewController(nibName: "ChatsDahsboardViewController", bundle: Bundle(for: ChatsDahsboardViewController.self))
         let interactor = ChatsDahsboardInteractor()
         let router = ChatsDahsboardRouter()
         let presenter = ChatsDahsboardPresenter(interface: view, interactor: interactor, router: router)
-        
+
         view.presenter = presenter
         interactor.presenter = presenter
         router.viewController = view
-        
+
         return view
     }
 }

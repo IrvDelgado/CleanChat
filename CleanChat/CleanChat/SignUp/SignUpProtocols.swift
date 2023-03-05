@@ -9,23 +9,23 @@
 
 import Foundation
 
-//MARK: Wireframe -
+// MARK: Wireframe -
 protocol SignUpWireframeProtocol: AnyObject {
 
 }
-//MARK: Presenter -
+// MARK: Presenter -
 protocol SignUpPresenterProtocol: AnyObject {
 
 }
 
-//MARK: Interactor -
+// MARK: Interactor -
 protocol SignUpInteractorProtocol: AnyObject {
 
-  var presenter: SignUpPresenterProtocol?  { get set }
+  var presenter: SignUpPresenterProtocol? { get set }
 }
 
-//MARK: View -
+// MARK: View -
 protocol SignUpViewProtocol: AnyObject {
 
-  var presenter: SignUpPresenterProtocol?  { get set }
+  var presenter: SignUpPresenterProtocol? { get set }
 }

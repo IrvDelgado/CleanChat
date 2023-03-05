@@ -15,6 +15,8 @@ final class LoginViewController: UIViewController, LoginViewProtocol {
 
 	override func viewDidLoad() {
         super.viewDidLoad()
+
+        view.backgroundColor = .yellow
     }
 
 }

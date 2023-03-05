@@ -9,23 +9,23 @@
 
 import Foundation
 
-//MARK: Wireframe -
+// MARK: Wireframe -
 protocol LoginWireframeProtocol: AnyObject {
 
 }
-//MARK: Presenter -
+// MARK: Presenter -
 protocol LoginPresenterProtocol: AnyObject {
 
 }
 
-//MARK: Interactor -
+// MARK: Interactor -
 protocol LoginInteractorProtocol: AnyObject {
 
-  var presenter: LoginPresenterProtocol?  { get set }
+  var presenter: LoginPresenterProtocol? { get set }
 }
 
-//MARK: View -
+// MARK: View -
 protocol LoginViewProtocol: AnyObject {
 
-  var presenter: LoginPresenterProtocol?  { get set }
+  var presenter: LoginPresenterProtocol? { get set }
 }

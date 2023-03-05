@@ -21,4 +21,12 @@ class InitialViewPresenter: InitialViewPresenterProtocol {
         self.router = router
     }
 
+    func goToLogin() {
+        router.routeToLogin()
+    }
+
+    func goToSignUp() {
+        router.routeToSignUp()
+    }
+
 }

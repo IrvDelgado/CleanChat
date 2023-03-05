@@ -58,6 +58,9 @@
 		87A2BEF829B473D6009620E7 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF229B473D6009620E7 /* HomeProtocols.swift */; };
 		87A2BEF929B473D6009620E7 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF329B473D6009620E7 /* HomeInteractor.swift */; };
 		87A2BEFA29B473D6009620E7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEF429B473D6009620E7 /* HomeViewController.xib */; };
+		87A2BEFE29B4EF16009620E7 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEFC29B4EF16009620E7 /* UIViewController+Extensions.swift */; };
+		87A2BEFF29B4EF16009620E7 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEFD29B4EF16009620E7 /* UIColor+Extensions.swift */; };
+		87A2BF0329B4F0EC009620E7 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BF0229B4F0EC009620E7 /* AppConstants.swift */; };
 		96A04F1B9CF87944D316C02F /* Pods_CleanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625612B0078A2BB767BA5592 /* Pods_CleanChat.framework */; };
 		A103315CF4A52797139A16E8 /* Pods_CleanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024E65C4187099E5044111DE /* Pods_CleanChatTests.framework */; };
 		D4C0DFE5349D894D832B5821 /* Pods_CleanChat_CleanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */; };
@@ -155,6 +158,9 @@
 		87A2BEF229B473D6009620E7 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		87A2BEF329B473D6009620E7 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		87A2BEF429B473D6009620E7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		87A2BEFC29B4EF16009620E7 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		87A2BEFD29B4EF16009620E7 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		87A2BF0229B4F0EC009620E7 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		AA8686C5E4497D6D2CC7F9A2 /* Pods-CleanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat.release.xcconfig"; path = "Target Support Files/Pods-CleanChat/Pods-CleanChat.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4928C5EC3C509389998C5 /* Pods-CleanChat-CleanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat-CleanChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CleanChat-CleanChatUITests/Pods-CleanChat-CleanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanChat_CleanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,16 +233,17 @@
 		879FEFF829B2CD2C00AA8BAD /* CleanChat */ = {
 			isa = PBXGroup;
 			children = (
+				87A2BEFB29B4EF16009620E7 /* Extensions */,
 				87A2BEB229B470FD009620E7 /* Home */,
 				87A2BEB129B46B91009620E7 /* ProfileInfo */,
 				87A2BEB029B46B86009620E7 /* ChatDetail */,
 				87A2BEAF29B46B51009620E7 /* ChatsDashboard */,
 				87A2BEAE29B46B3B009620E7 /* SignUp */,
-				87A2BEAB29B44FCB009620E7 /* IInitialView */,
 				87A2BEAD29B46B2C009620E7 /* Login */,
+				87A2BEAB29B44FCB009620E7 /* IInitialView */,
 				879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */,
 				879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */,
-				879FF00229B2CD2D00AA8BAD /* Assets.xcassets */,
+				87A2BF0129B4F021009620E7 /* Resources */,
 				8735ABD729B4300300849676 /* GoogleService-Info.plist */,
 				879FF00729B2CD2D00AA8BAD /* Info.plist */,
 			);
@@ -349,6 +356,24 @@
 				87A2BEF429B473D6009620E7 /* HomeViewController.xib */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		87A2BEFB29B4EF16009620E7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BEFC29B4EF16009620E7 /* UIViewController+Extensions.swift */,
+				87A2BEFD29B4EF16009620E7 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		87A2BF0129B4F021009620E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BF0229B4F0EC009620E7 /* AppConstants.swift */,
+				879FF00229B2CD2D00AA8BAD /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		C9664C060A8E7B781582F120 /* Frameworks */ = {
@@ -632,6 +657,7 @@
 				87A2BEA829B44FB9009620E7 /* InitialViewProtocols.swift in Sources */,
 				87A2BEF829B473D6009620E7 /* HomeProtocols.swift in Sources */,
 				87A2BEC629B4729F009620E7 /* SignUpRouter.swift in Sources */,
+				87A2BEFE29B4EF16009620E7 /* UIViewController+Extensions.swift in Sources */,
 				87A2BEF729B473D6009620E7 /* HomeViewController.swift in Sources */,
 				87A2BEDD29B47368009620E7 /* ChatDetailPresenter.swift in Sources */,
 				87A2BEDE29B47368009620E7 /* ChatDetailRouter.swift in Sources */,
@@ -641,8 +667,10 @@
 				87A2BEA629B44FB9009620E7 /* InitialViewRouter.swift in Sources */,
 				87A2BED529B47345009620E7 /* ChatsDahsboardInteractor.swift in Sources */,
 				87A2BEC529B4729F009620E7 /* SignUpPresenter.swift in Sources */,
+				87A2BEFF29B4EF16009620E7 /* UIColor+Extensions.swift in Sources */,
 				87A2BEBA29B471D9009620E7 /* LoginRouter.swift in Sources */,
 				87A2BEED29B473C2009620E7 /* ProfileInfoInteractor.swift in Sources */,
+				87A2BF0329B4F0EC009620E7 /* AppConstants.swift in Sources */,
 				87A2BEA529B44FB9009620E7 /* InitialViewPresenter.swift in Sources */,
 				87A2BEE129B47368009620E7 /* ChatDetailInteractor.swift in Sources */,
 				87A2BEE929B473C2009620E7 /* ProfileInfoPresenter.swift in Sources */,

@@ -11,11 +11,14 @@ import Foundation
 
 // MARK: Wireframe -
 protocol InitialViewWireframeProtocol: AnyObject {
+    func routeToLogin()
+    func routeToSignUp()
 
 }
 // MARK: Presenter -
 protocol InitialViewPresenterProtocol: AnyObject {
-
+    func goToLogin()
+    func goToSignUp()
 }
 
 // MARK: Interactor -

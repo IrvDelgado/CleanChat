@@ -12,6 +12,7 @@ import UIKit
 final class InitialViewRouter: InitialViewWireframeProtocol {
 
     weak var viewController: UIViewController?
+    // weak var navigationController: UINavigationController?
 
     static func createModule() -> UIViewController {
         let view = InitialViewViewController(nibName: "InitialViewViewController", bundle: Bundle(for: InitialViewViewController.self))
@@ -22,7 +23,19 @@ final class InitialViewRouter: InitialViewWireframeProtocol {
         view.presenter = presenter
         interactor.presenter = presenter
         router.viewController = view
+        // router.navigationController = view.navigationController
 
         return view
     }
+
+    func routeToLogin() {
+        let view = LoginRouter.createModule()
+        // self.navigationController?.pushViewController(view, animated: true)
+    }
+
+    func routeToSignUp() {
+        let view = SignUpRouter.createModule()
+        // self.navigationController?.pushViewController(view, animated: true)
+    }
+
 }

@@ -15,6 +15,8 @@ final class SignUpViewController: UIViewController, SignUpViewProtocol {
 
 	override func viewDidLoad() {
         super.viewDidLoad()
+
+        view.backgroundColor = .systemPink
     }
 
 }
