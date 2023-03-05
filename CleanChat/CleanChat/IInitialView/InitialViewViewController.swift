@@ -9,7 +9,7 @@
 
 import UIKit
 
-class InitialViewViewController: UIViewController, InitialViewViewProtocol {
+final class InitialViewViewController: UIViewController, InitialViewViewProtocol {
 
 	var presenter: InitialViewPresenterProtocol?
 

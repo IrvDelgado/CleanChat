@@ -9,13 +9,12 @@
 
 import UIKit
 
-class InitialViewRouter: InitialViewWireframeProtocol {
+final class InitialViewRouter: InitialViewWireframeProtocol {
 
     weak var viewController: UIViewController?
 
     static func createModule() -> UIViewController {
-        // Change to get view from storyboard if not using progammatic UI
-        let view = InitialViewViewController(nibName: nil, bundle: nil)
+        let view = InitialViewViewController(nibName: "InitialViewViewController", bundle: Bundle(for: InitialViewViewController.self))
         let interactor = InitialViewInteractor()
         let router = InitialViewRouter()
         let presenter = InitialViewPresenter(interface: view, interactor: interactor, router: router)

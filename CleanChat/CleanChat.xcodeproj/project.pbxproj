@@ -22,6 +22,42 @@
 		87A2BEA829B44FB9009620E7 /* InitialViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA229B44FB9009620E7 /* InitialViewProtocols.swift */; };
 		87A2BEA929B44FB9009620E7 /* InitialViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEA329B44FB9009620E7 /* InitialViewInteractor.swift */; };
 		87A2BEAA29B44FB9009620E7 /* InitialViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */; };
+		87A2BEB929B471D9009620E7 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEB329B471D9009620E7 /* LoginPresenter.swift */; };
+		87A2BEBA29B471D9009620E7 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEB429B471D9009620E7 /* LoginRouter.swift */; };
+		87A2BEBB29B471D9009620E7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEB529B471D9009620E7 /* LoginViewController.swift */; };
+		87A2BEBC29B471D9009620E7 /* LoginProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEB629B471D9009620E7 /* LoginProtocols.swift */; };
+		87A2BEBD29B471D9009620E7 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEB729B471D9009620E7 /* LoginInteractor.swift */; };
+		87A2BEBE29B471D9009620E7 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEB829B471D9009620E7 /* LoginViewController.xib */; };
+		87A2BEC529B4729F009620E7 /* SignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEBF29B4729F009620E7 /* SignUpPresenter.swift */; };
+		87A2BEC629B4729F009620E7 /* SignUpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEC029B4729F009620E7 /* SignUpRouter.swift */; };
+		87A2BEC729B4729F009620E7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEC129B4729F009620E7 /* SignUpViewController.swift */; };
+		87A2BEC829B4729F009620E7 /* SignUpProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEC229B4729F009620E7 /* SignUpProtocols.swift */; };
+		87A2BEC929B4729F009620E7 /* SignUpInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEC329B4729F009620E7 /* SignUpInteractor.swift */; };
+		87A2BECA29B4729F009620E7 /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEC429B4729F009620E7 /* SignUpViewController.xib */; };
+		87A2BED129B47345009620E7 /* ChatsDahsboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BECB29B47345009620E7 /* ChatsDahsboardPresenter.swift */; };
+		87A2BED229B47345009620E7 /* ChatsDahsboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BECC29B47345009620E7 /* ChatsDahsboardRouter.swift */; };
+		87A2BED329B47345009620E7 /* ChatsDahsboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BECD29B47345009620E7 /* ChatsDahsboardViewController.swift */; };
+		87A2BED429B47345009620E7 /* ChatsDahsboardProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BECE29B47345009620E7 /* ChatsDahsboardProtocols.swift */; };
+		87A2BED529B47345009620E7 /* ChatsDahsboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BECF29B47345009620E7 /* ChatsDahsboardInteractor.swift */; };
+		87A2BED629B47345009620E7 /* ChatsDahsboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BED029B47345009620E7 /* ChatsDahsboardViewController.xib */; };
+		87A2BEDD29B47368009620E7 /* ChatDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BED729B47368009620E7 /* ChatDetailPresenter.swift */; };
+		87A2BEDE29B47368009620E7 /* ChatDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BED829B47368009620E7 /* ChatDetailRouter.swift */; };
+		87A2BEDF29B47368009620E7 /* ChatDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BED929B47368009620E7 /* ChatDetailViewController.swift */; };
+		87A2BEE029B47368009620E7 /* ChatDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEDA29B47368009620E7 /* ChatDetailProtocols.swift */; };
+		87A2BEE129B47368009620E7 /* ChatDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEDB29B47368009620E7 /* ChatDetailInteractor.swift */; };
+		87A2BEE229B47368009620E7 /* ChatDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEDC29B47368009620E7 /* ChatDetailViewController.xib */; };
+		87A2BEE929B473C2009620E7 /* ProfileInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEE329B473C2009620E7 /* ProfileInfoPresenter.swift */; };
+		87A2BEEA29B473C2009620E7 /* ProfileInfoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEE429B473C2009620E7 /* ProfileInfoRouter.swift */; };
+		87A2BEEB29B473C2009620E7 /* ProfileInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEE529B473C2009620E7 /* ProfileInfoViewController.swift */; };
+		87A2BEEC29B473C2009620E7 /* ProfileInfoProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEE629B473C2009620E7 /* ProfileInfoProtocols.swift */; };
+		87A2BEED29B473C2009620E7 /* ProfileInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEE729B473C2009620E7 /* ProfileInfoInteractor.swift */; };
+		87A2BEEE29B473C2009620E7 /* ProfileInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEE829B473C2009620E7 /* ProfileInfoViewController.xib */; };
+		87A2BEF529B473D6009620E7 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEEF29B473D6009620E7 /* HomePresenter.swift */; };
+		87A2BEF629B473D6009620E7 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF029B473D6009620E7 /* HomeRouter.swift */; };
+		87A2BEF729B473D6009620E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF129B473D6009620E7 /* HomeViewController.swift */; };
+		87A2BEF829B473D6009620E7 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF229B473D6009620E7 /* HomeProtocols.swift */; };
+		87A2BEF929B473D6009620E7 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A2BEF329B473D6009620E7 /* HomeInteractor.swift */; };
+		87A2BEFA29B473D6009620E7 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A2BEF429B473D6009620E7 /* HomeViewController.xib */; };
 		96A04F1B9CF87944D316C02F /* Pods_CleanChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 625612B0078A2BB767BA5592 /* Pods_CleanChat.framework */; };
 		A103315CF4A52797139A16E8 /* Pods_CleanChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 024E65C4187099E5044111DE /* Pods_CleanChatTests.framework */; };
 		D4C0DFE5349D894D832B5821 /* Pods_CleanChat_CleanChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */; };
@@ -83,6 +119,42 @@
 		87A2BEA229B44FB9009620E7 /* InitialViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewProtocols.swift; sourceTree = "<group>"; };
 		87A2BEA329B44FB9009620E7 /* InitialViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewInteractor.swift; sourceTree = "<group>"; };
 		87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewViewController.xib; sourceTree = "<group>"; };
+		87A2BEB329B471D9009620E7 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		87A2BEB429B471D9009620E7 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		87A2BEB529B471D9009620E7 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		87A2BEB629B471D9009620E7 /* LoginProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocols.swift; sourceTree = "<group>"; };
+		87A2BEB729B471D9009620E7 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		87A2BEB829B471D9009620E7 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		87A2BEBF29B4729F009620E7 /* SignUpPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPresenter.swift; sourceTree = "<group>"; };
+		87A2BEC029B4729F009620E7 /* SignUpRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRouter.swift; sourceTree = "<group>"; };
+		87A2BEC129B4729F009620E7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		87A2BEC229B4729F009620E7 /* SignUpProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpProtocols.swift; sourceTree = "<group>"; };
+		87A2BEC329B4729F009620E7 /* SignUpInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpInteractor.swift; sourceTree = "<group>"; };
+		87A2BEC429B4729F009620E7 /* SignUpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		87A2BECB29B47345009620E7 /* ChatsDahsboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDahsboardPresenter.swift; sourceTree = "<group>"; };
+		87A2BECC29B47345009620E7 /* ChatsDahsboardRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDahsboardRouter.swift; sourceTree = "<group>"; };
+		87A2BECD29B47345009620E7 /* ChatsDahsboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDahsboardViewController.swift; sourceTree = "<group>"; };
+		87A2BECE29B47345009620E7 /* ChatsDahsboardProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDahsboardProtocols.swift; sourceTree = "<group>"; };
+		87A2BECF29B47345009620E7 /* ChatsDahsboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsDahsboardInteractor.swift; sourceTree = "<group>"; };
+		87A2BED029B47345009620E7 /* ChatsDahsboardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatsDahsboardViewController.xib; sourceTree = "<group>"; };
+		87A2BED729B47368009620E7 /* ChatDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailPresenter.swift; sourceTree = "<group>"; };
+		87A2BED829B47368009620E7 /* ChatDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailRouter.swift; sourceTree = "<group>"; };
+		87A2BED929B47368009620E7 /* ChatDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailViewController.swift; sourceTree = "<group>"; };
+		87A2BEDA29B47368009620E7 /* ChatDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailProtocols.swift; sourceTree = "<group>"; };
+		87A2BEDB29B47368009620E7 /* ChatDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailInteractor.swift; sourceTree = "<group>"; };
+		87A2BEDC29B47368009620E7 /* ChatDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatDetailViewController.xib; sourceTree = "<group>"; };
+		87A2BEE329B473C2009620E7 /* ProfileInfoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoPresenter.swift; sourceTree = "<group>"; };
+		87A2BEE429B473C2009620E7 /* ProfileInfoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoRouter.swift; sourceTree = "<group>"; };
+		87A2BEE529B473C2009620E7 /* ProfileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoViewController.swift; sourceTree = "<group>"; };
+		87A2BEE629B473C2009620E7 /* ProfileInfoProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoProtocols.swift; sourceTree = "<group>"; };
+		87A2BEE729B473C2009620E7 /* ProfileInfoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoInteractor.swift; sourceTree = "<group>"; };
+		87A2BEE829B473C2009620E7 /* ProfileInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoViewController.xib; sourceTree = "<group>"; };
+		87A2BEEF29B473D6009620E7 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		87A2BEF029B473D6009620E7 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		87A2BEF129B473D6009620E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		87A2BEF229B473D6009620E7 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		87A2BEF329B473D6009620E7 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		87A2BEF429B473D6009620E7 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		AA8686C5E4497D6D2CC7F9A2 /* Pods-CleanChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat.release.xcconfig"; path = "Target Support Files/Pods-CleanChat/Pods-CleanChat.release.xcconfig"; sourceTree = "<group>"; };
 		C5C4928C5EC3C509389998C5 /* Pods-CleanChat-CleanChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat-CleanChatUITests.release.xcconfig"; path = "Target Support Files/Pods-CleanChat-CleanChatUITests/Pods-CleanChat-CleanChatUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanChat_CleanChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,9 +227,15 @@
 		879FEFF829B2CD2C00AA8BAD /* CleanChat */ = {
 			isa = PBXGroup;
 			children = (
+				87A2BEB229B470FD009620E7 /* Home */,
+				87A2BEB129B46B91009620E7 /* ProfileInfo */,
+				87A2BEB029B46B86009620E7 /* ChatDetail */,
+				87A2BEAF29B46B51009620E7 /* ChatsDashboard */,
+				87A2BEAE29B46B3B009620E7 /* SignUp */,
+				87A2BEAB29B44FCB009620E7 /* IInitialView */,
+				87A2BEAD29B46B2C009620E7 /* Login */,
 				879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */,
 				879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */,
-				87A2BEAB29B44FCB009620E7 /* IInitialView */,
 				879FF00229B2CD2D00AA8BAD /* Assets.xcassets */,
 				8735ABD729B4300300849676 /* GoogleService-Info.plist */,
 				879FF00729B2CD2D00AA8BAD /* Info.plist */,
@@ -193,6 +271,84 @@
 				87A2BEA429B44FB9009620E7 /* InitialViewViewController.xib */,
 			);
 			path = IInitialView;
+			sourceTree = "<group>";
+		};
+		87A2BEAD29B46B2C009620E7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BEB329B471D9009620E7 /* LoginPresenter.swift */,
+				87A2BEB429B471D9009620E7 /* LoginRouter.swift */,
+				87A2BEB529B471D9009620E7 /* LoginViewController.swift */,
+				87A2BEB629B471D9009620E7 /* LoginProtocols.swift */,
+				87A2BEB729B471D9009620E7 /* LoginInteractor.swift */,
+				87A2BEB829B471D9009620E7 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		87A2BEAE29B46B3B009620E7 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BEBF29B4729F009620E7 /* SignUpPresenter.swift */,
+				87A2BEC029B4729F009620E7 /* SignUpRouter.swift */,
+				87A2BEC129B4729F009620E7 /* SignUpViewController.swift */,
+				87A2BEC229B4729F009620E7 /* SignUpProtocols.swift */,
+				87A2BEC329B4729F009620E7 /* SignUpInteractor.swift */,
+				87A2BEC429B4729F009620E7 /* SignUpViewController.xib */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		87A2BEAF29B46B51009620E7 /* ChatsDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BECB29B47345009620E7 /* ChatsDahsboardPresenter.swift */,
+				87A2BECC29B47345009620E7 /* ChatsDahsboardRouter.swift */,
+				87A2BECD29B47345009620E7 /* ChatsDahsboardViewController.swift */,
+				87A2BECE29B47345009620E7 /* ChatsDahsboardProtocols.swift */,
+				87A2BECF29B47345009620E7 /* ChatsDahsboardInteractor.swift */,
+				87A2BED029B47345009620E7 /* ChatsDahsboardViewController.xib */,
+			);
+			path = ChatsDashboard;
+			sourceTree = "<group>";
+		};
+		87A2BEB029B46B86009620E7 /* ChatDetail */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BED729B47368009620E7 /* ChatDetailPresenter.swift */,
+				87A2BED829B47368009620E7 /* ChatDetailRouter.swift */,
+				87A2BED929B47368009620E7 /* ChatDetailViewController.swift */,
+				87A2BEDA29B47368009620E7 /* ChatDetailProtocols.swift */,
+				87A2BEDB29B47368009620E7 /* ChatDetailInteractor.swift */,
+				87A2BEDC29B47368009620E7 /* ChatDetailViewController.xib */,
+			);
+			path = ChatDetail;
+			sourceTree = "<group>";
+		};
+		87A2BEB129B46B91009620E7 /* ProfileInfo */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BEE329B473C2009620E7 /* ProfileInfoPresenter.swift */,
+				87A2BEE429B473C2009620E7 /* ProfileInfoRouter.swift */,
+				87A2BEE529B473C2009620E7 /* ProfileInfoViewController.swift */,
+				87A2BEE629B473C2009620E7 /* ProfileInfoProtocols.swift */,
+				87A2BEE729B473C2009620E7 /* ProfileInfoInteractor.swift */,
+				87A2BEE829B473C2009620E7 /* ProfileInfoViewController.xib */,
+			);
+			path = ProfileInfo;
+			sourceTree = "<group>";
+		};
+		87A2BEB229B470FD009620E7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				87A2BEEF29B473D6009620E7 /* HomePresenter.swift */,
+				87A2BEF029B473D6009620E7 /* HomeRouter.swift */,
+				87A2BEF129B473D6009620E7 /* HomeViewController.swift */,
+				87A2BEF229B473D6009620E7 /* HomeProtocols.swift */,
+				87A2BEF329B473D6009620E7 /* HomeInteractor.swift */,
+				87A2BEF429B473D6009620E7 /* HomeViewController.xib */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 		C9664C060A8E7B781582F120 /* Frameworks */ = {
@@ -317,9 +473,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A2BECA29B4729F009620E7 /* SignUpViewController.xib in Resources */,
+				87A2BEBE29B471D9009620E7 /* LoginViewController.xib in Resources */,
+				87A2BEEE29B473C2009620E7 /* ProfileInfoViewController.xib in Resources */,
+				87A2BEE229B47368009620E7 /* ChatDetailViewController.xib in Resources */,
+				87A2BED629B47345009620E7 /* ChatsDahsboardViewController.xib in Resources */,
 				87A2BEAA29B44FB9009620E7 /* InitialViewViewController.xib in Resources */,
 				8735ABD829B4300300849676 /* GoogleService-Info.plist in Resources */,
 				879FF00329B2CD2D00AA8BAD /* Assets.xcassets in Resources */,
+				87A2BEFA29B473D6009620E7 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,13 +626,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87A2BEEB29B473C2009620E7 /* ProfileInfoViewController.swift in Sources */,
+				87A2BEB929B471D9009620E7 /* LoginPresenter.swift in Sources */,
+				87A2BED129B47345009620E7 /* ChatsDahsboardPresenter.swift in Sources */,
 				87A2BEA829B44FB9009620E7 /* InitialViewProtocols.swift in Sources */,
+				87A2BEF829B473D6009620E7 /* HomeProtocols.swift in Sources */,
+				87A2BEC629B4729F009620E7 /* SignUpRouter.swift in Sources */,
+				87A2BEF729B473D6009620E7 /* HomeViewController.swift in Sources */,
+				87A2BEDD29B47368009620E7 /* ChatDetailPresenter.swift in Sources */,
+				87A2BEDE29B47368009620E7 /* ChatDetailRouter.swift in Sources */,
 				879FEFFA29B2CD2C00AA8BAD /* AppDelegate.swift in Sources */,
+				87A2BEEA29B473C2009620E7 /* ProfileInfoRouter.swift in Sources */,
 				87A2BEA729B44FB9009620E7 /* InitialViewViewController.swift in Sources */,
 				87A2BEA629B44FB9009620E7 /* InitialViewRouter.swift in Sources */,
+				87A2BED529B47345009620E7 /* ChatsDahsboardInteractor.swift in Sources */,
+				87A2BEC529B4729F009620E7 /* SignUpPresenter.swift in Sources */,
+				87A2BEBA29B471D9009620E7 /* LoginRouter.swift in Sources */,
+				87A2BEED29B473C2009620E7 /* ProfileInfoInteractor.swift in Sources */,
 				87A2BEA529B44FB9009620E7 /* InitialViewPresenter.swift in Sources */,
+				87A2BEE129B47368009620E7 /* ChatDetailInteractor.swift in Sources */,
+				87A2BEE929B473C2009620E7 /* ProfileInfoPresenter.swift in Sources */,
+				87A2BEC729B4729F009620E7 /* SignUpViewController.swift in Sources */,
+				87A2BED329B47345009620E7 /* ChatsDahsboardViewController.swift in Sources */,
+				87A2BEEC29B473C2009620E7 /* ProfileInfoProtocols.swift in Sources */,
+				87A2BEF529B473D6009620E7 /* HomePresenter.swift in Sources */,
+				87A2BEF929B473D6009620E7 /* HomeInteractor.swift in Sources */,
+				87A2BED229B47345009620E7 /* ChatsDahsboardRouter.swift in Sources */,
 				87A2BEA929B44FB9009620E7 /* InitialViewInteractor.swift in Sources */,
+				87A2BEC829B4729F009620E7 /* SignUpProtocols.swift in Sources */,
+				87A2BEF629B473D6009620E7 /* HomeRouter.swift in Sources */,
+				87A2BED429B47345009620E7 /* ChatsDahsboardProtocols.swift in Sources */,
+				87A2BEBD29B471D9009620E7 /* LoginInteractor.swift in Sources */,
+				87A2BEE029B47368009620E7 /* ChatDetailProtocols.swift in Sources */,
+				87A2BEBB29B471D9009620E7 /* LoginViewController.swift in Sources */,
+				87A2BEDF29B47368009620E7 /* ChatDetailViewController.swift in Sources */,
 				879FEFFC29B2CD2C00AA8BAD /* SceneDelegate.swift in Sources */,
+				87A2BEBC29B471D9009620E7 /* LoginProtocols.swift in Sources */,
+				87A2BEC929B4729F009620E7 /* SignUpInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
