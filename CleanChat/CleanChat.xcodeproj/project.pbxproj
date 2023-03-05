@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876C910C29B4265D00774DEF /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 876C910B29B4265D00774DEF /* NetworkLayer.framework */; };
+		876C910D29B4265D00774DEF /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 876C910B29B4265D00774DEF /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		879FEFFA29B2CD2C00AA8BAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */; };
 		879FEFFC29B2CD2C00AA8BAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */; };
 		879FEFFE29B2CD2C00AA8BAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 879FEFFD29B2CD2C00AA8BAD /* ViewController.swift */; };
@@ -38,6 +40,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		876C910E29B4265D00774DEF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				876C910D29B4265D00774DEF /* NetworkLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		024E65C4187099E5044111DE /* Pods_CleanChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48610D3DC4C3119975BD7BDB /* Pods-CleanChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChatTests.debug.xcconfig"; path = "Target Support Files/Pods-CleanChatTests/Pods-CleanChatTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +61,7 @@
 		55EA146D3163C59EF0EF5FF0 /* Pods-CleanChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat.debug.xcconfig"; path = "Target Support Files/Pods-CleanChat/Pods-CleanChat.debug.xcconfig"; sourceTree = "<group>"; };
 		625612B0078A2BB767BA5592 /* Pods_CleanChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C771080F45F717DAD08037C /* Pods-CleanChat-CleanChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CleanChat-CleanChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-CleanChat-CleanChatUITests/Pods-CleanChat-CleanChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		876C910B29B4265D00774DEF /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		879FEFF629B2CD2C00AA8BAD /* CleanChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		879FEFF929B2CD2C00AA8BAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		879FEFFB29B2CD2C00AA8BAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +86,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A04F1B9CF87944D316C02F /* Pods_CleanChat.framework in Frameworks */,
+				876C910C29B4265D00774DEF /* NetworkLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +119,6 @@
 				48610D3DC4C3119975BD7BDB /* Pods-CleanChatTests.debug.xcconfig */,
 				4F35135A91707E576BAFFC81 /* Pods-CleanChatTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -161,6 +178,7 @@
 		C9664C060A8E7B781582F120 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				876C910B29B4265D00774DEF /* NetworkLayer.framework */,
 				625612B0078A2BB767BA5592 /* Pods_CleanChat.framework */,
 				D383452E52952BD943D5E104 /* Pods_CleanChat_CleanChatUITests.framework */,
 				024E65C4187099E5044111DE /* Pods_CleanChatTests.framework */,
@@ -181,6 +199,7 @@
 				879FEFF429B2CD2C00AA8BAD /* Resources */,
 				87D6F9F129B41E5E00F5710A /* ShellScript */,
 				D2741E2726B490A471682485 /* [CP] Embed Pods Frameworks */,
+				876C910E29B4265D00774DEF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
