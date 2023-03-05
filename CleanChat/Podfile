@@ -11,6 +11,8 @@ target 'CleanChat' do
 
   rx
   pod 'SwiftLint'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
 
 
   target 'CleanChatTests' do
