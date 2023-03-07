@@ -169,7 +169,7 @@ final class LoginViewController: UIViewController, LoginViewProtocol {
 
         button.translatesAutoresizingMaskIntoConstraints = false
 
-         // button.addTarget(self, action: #selector(signUpBtnAction(sender:)), for: .touchUpInside)
+        button.addTarget(self, action: #selector(logInBtnAction(sender:)), for: .touchUpInside)
 
         return button
     }()
@@ -260,6 +260,34 @@ final class LoginViewController: UIViewController, LoginViewProtocol {
         fullStackView.addArrangedSubview(middleView)
         fullStackView.addArrangedSubview(bottomView)
 
+    }
+
+    @objc func logInBtnAction(sender: UIButton) {
+
+        if let email = emailTxtField.text, let pass = passTxtField.text {
+            presenter?.loginUser(email: email, pass: pass)
+
+        }
+
+    }
+
+    func displayLoginError(message: String) {
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: .alert)
+
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { action in
+          switch action.style {
+          case .default:
+            print("default")
+          case .cancel:
+            print("cancel")
+          case .destructive:
+            print("destructive")
+          @unknown default:
+              fatalError()
+          }
+        }))
+
+        self.present(alert, animated: true, completion: nil)
     }
 
 }

@@ -31,8 +31,6 @@ final class SignUpRouter: SignUpWireframeProtocol {
 
     func routeToDashboard() {
 
-        print("Exito")
-
         let view = HomeRouter.createModule()
 
         self.navigationController?.pushViewController(view, animated: true)

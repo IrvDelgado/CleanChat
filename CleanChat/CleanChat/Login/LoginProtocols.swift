@@ -11,10 +11,15 @@ import Foundation
 
 // MARK: Wireframe -
 protocol LoginWireframeProtocol: AnyObject {
+    func routeToDashboard()
 
 }
 // MARK: Presenter -
 protocol LoginPresenterProtocol: AnyObject {
+    func loginUser(email: String, pass: String)
+
+    func presentLoginError(withError: String)
+    func goToDashboard()
 
 }
 
@@ -22,10 +27,14 @@ protocol LoginPresenterProtocol: AnyObject {
 protocol LoginInteractorProtocol: AnyObject {
 
   var presenter: LoginPresenterProtocol? { get set }
+    func doLogIn(email: String, pass: String)
 }
 
 // MARK: View -
 protocol LoginViewProtocol: AnyObject {
 
   var presenter: LoginPresenterProtocol? { get set }
+
+    func displayLoginError(message: String)
+
 }

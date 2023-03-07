@@ -12,8 +12,9 @@ import UIKit
 final class LoginRouter: LoginWireframeProtocol {
 
     weak var viewController: UIViewController?
+    weak var navigationController: UINavigationController?
 
-    static func createModule() -> UIViewController {
+    static func createModule(with navigationController: UINavigationController?) -> UIViewController {
         let view = LoginViewController(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
 
         let interactor = LoginInteractor()
@@ -23,7 +24,14 @@ final class LoginRouter: LoginWireframeProtocol {
         view.presenter = presenter
         interactor.presenter = presenter
         router.viewController = view
+        router.navigationController = navigationController
 
         return view
+    }
+
+    func routeToDashboard() {
+        let view = HomeRouter.createModule()
+
+        self.navigationController?.pushViewController(view, animated: true)
     }
 }

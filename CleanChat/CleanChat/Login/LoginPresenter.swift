@@ -21,4 +21,15 @@ final class LoginPresenter: LoginPresenterProtocol {
         self.router = router
     }
 
+    func loginUser(email: String, pass: String) {
+        interactor?.doLogIn(email: email, pass: pass)
+    }
+
+    func presentLoginError(withError: String) {
+        view?.displayLoginError(message: withError)
+    }
+
+    func goToDashboard() {
+        router.routeToDashboard()
+    }
 }

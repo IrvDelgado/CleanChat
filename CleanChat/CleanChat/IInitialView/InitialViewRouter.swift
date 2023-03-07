@@ -29,7 +29,9 @@ final class InitialViewRouter: InitialViewWireframeProtocol {
     }
 
     func routeToLogin() {
-        let view = LoginRouter.createModule()
+        guard let navController = self.navigationController else { return}
+
+        let view = LoginRouter.createModule(with: navController)
 
         self.navigationController?.pushViewController(view, animated: true)
     }
